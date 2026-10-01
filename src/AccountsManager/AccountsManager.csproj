@@ -1,0 +1,371 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>AccountsManager</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\btnplay.png" />
+    <None Remove="resources\qiwi.png" />
+    <None Remove="resources\btncupis.png" />
+    <None Remove="resources\fonts\harrington.ttf" />
+    <None Remove="_accountsmanager\windowlogs.baml" />
+    <None Remove="resources\btnsoundon.png" />
+    <None Remove="dropcoef\windowdropcoef.baml" />
+    <None Remove="resources\btnsettings2.png" />
+    <None Remove="resources\lose.png" />
+    <None Remove="_accountsmanager\ucaccount.baml" />
+    <None Remove="resources\accountadd.jpg" />
+    <None Remove="resources\btnforward.png" />
+    <None Remove="_accountsmanager\windowusers.baml" />
+    <None Remove="dictionaryresources.baml" />
+    <None Remove="dropcoef\windowmatchline.baml" />
+    <None Remove="dropcoef\resources\dropcoef.png" />
+    <None Remove="dropcoef\resources\dropcoef.ico" />
+    <None Remove="resources\success2.png" />
+    <None Remove="resources\btnedit.png" />
+    <None Remove="_accountsmanager\windowproxy.baml" />
+    <None Remove="resources\mailbox.png" />
+    <None Remove="resources\yandex.png" />
+    <None Remove="_accountsmanager\ucsettingsvaluescore.baml" />
+    <None Remove="resources\btnsettings.png" />
+    <None Remove="resources\piastrix.png" />
+    <None Remove="resources\btnstart2.png" />
+    <None Remove="resources\chooseall.png" />
+    <None Remove="resources\search.png" />
+    <None Remove="resources\btninfo5.png" />
+    <None Remove="resources\btninfo8.png" />
+    <None Remove="_accountsmanager\ucsettingsvaluesplus.baml" />
+    <None Remove="resources\fork.png" />
+    <None Remove="resources\btnwindow.png" />
+    <None Remove="resources\btnopenfolder.png" />
+    <None Remove="resources\linking.png" />
+    <None Remove="resources\simcards.png" />
+    <None Remove="resources\lockopen.png" />
+    <None Remove="resources\accountsstatusdelete2.png" />
+    <None Remove="resources\btn_cancel.png" />
+    <None Remove="resources\value.png" />
+    <None Remove="snapshotsviewer\resources\chart.ico" />
+    <None Remove="snapshotsviewer\resources\chart.jpg" />
+    <None Remove="resources\btnback.png" />
+    <None Remove="resources\delay.png" />
+    <None Remove="resources\logovk.png" />
+    <None Remove="resources\btninternet4.png" />
+    <None Remove="resources\poslegol.png" />
+    <None Remove="resources\btndelete2.png" />
+    <None Remove="resources\btnhidetray3.png" />
+    <None Remove="resources\delayscore1.png" />
+    <None Remove="resources\diskette2.png" />
+    <None Remove="resources\diskette1.png" />
+    <None Remove="resources\success.png" />
+    <None Remove="resources\btnsoundoff.png" />
+    <None Remove="resources\btnadd.png" />
+    <None Remove="resources\btnstop.png" />
+    <None Remove="resources\am_logo3.png" />
+    <None Remove="resources\am_logo3.ico" />
+    <None Remove="resources\am_logo2.png" />
+    <None Remove="authdialog.baml" />
+    <None Remove="resources\soundon.png" />
+    <None Remove="resources\proxy.jpg" />
+    <None Remove="resources\browsers.png" />
+    <None Remove="resources\btndelete.png" />
+    <None Remove="resources\lockclosed.png" />
+    <None Remove="resources\gb.ico" />
+    <None Remove="resources\monetix.png" />
+    <None Remove="resources\ab.ico" />
+    <None Remove="resources\money2.png" />
+    <None Remove="resources\money3.png" />
+    <None Remove="resources\money1.png" />
+    <None Remove="resources\btnpause.png" />
+    <None Remove="resources\money4.png" />
+    <None Remove="resources\favoriteoff.png" />
+    <None Remove="cupisdatabasewindow.baml" />
+    <None Remove="resources\eyeclosed.png" />
+    <None Remove="_accountsmanager\windowaccountsmanager.baml" />
+    <None Remove="resources\accountsstatusedit.png" />
+    <None Remove="resources\btnproxy.jpg" />
+    <None Remove="resources\logotelegram.png" />
+    <None Remove="styles\customizedwindow\windowstyle.baml" />
+    <None Remove="snapshotsviewer\windowsnapshotmatch.baml" />
+    <None Remove="mainwindow.baml" />
+    <None Remove="resources\btnrefresh.png" />
+    <None Remove="_accountsmanager\windowuser.baml" />
+    <None Remove="snapshotsviewer\resources\snapshotsviewer.jpg" />
+    <None Remove="snapshotsviewer\resources\snapshotsviewer.ico" />
+    <None Remove="resources\maxthon_black.png" />
+    <None Remove="windowdialog.baml" />
+    <None Remove="resources\1cupis.png" />
+    <None Remove="resources\am_logo.ico" />
+    <None Remove="resources\am_logo.jpg" />
+    <None Remove="resources\am_logo.png" />
+    <None Remove="resources\players.png" />
+    <None Remove="dropcoef\resources\background1.jpg" />
+    <None Remove="_accountsmanager\ucsettingsvalue.baml" />
+    <None Remove="_accountsmanager\ucsettingsposlegol.baml" />
+    <None Remove="resources\btnkeyoff1.png" />
+    <None Remove="resources\exit.png" />
+    <None Remove="resources\mailru.png" />
+    <None Remove="windowinfo.baml" />
+    <None Remove="resources\qiwi2.png" />
+    <None Remove="resources\qiwi3.png" />
+    <None Remove="resources\users.png" />
+    <None Remove="resources\btnchange.png" />
+    <None Remove="resources\backgroundab6.jpg" />
+    <None Remove="resources\backgroundab4.jpg" />
+    <None Remove="resources\backgroundab7.jpg" />
+    <None Remove="resources\backgroundab2.jpg" />
+    <None Remove="resources\backgroundab5.jpg" />
+    <None Remove="resources\backgroundab3.jpg" />
+    <None Remove="resources\backgroundab1.jpg" />
+    <None Remove="resources\user2.jpg" />
+    <None Remove="resources\btnhide.png" />
+    <None Remove="resources\user3.png" />
+    <None Remove="resources\menu4.png" />
+    <None Remove="resources\btnstart.png" />
+    <None Remove="resources\filter.png" />
+    <None Remove="resources\btncopy.png" />
+    <None Remove="resources\telegram.png" />
+    <None Remove="resources\btnsave.png" />
+    <None Remove="resources\background1.jpg" />
+    <None Remove="resources\background2.jpg" />
+    <None Remove="_accountsmanager\windowaccountsettings.baml" />
+    <None Remove="resources\btnclose.png" />
+    <None Remove="resources\btnsearch.png" />
+    <None Remove="resources\accountsstatusadd_.png" />
+    <None Remove="_accountsmanager\ucbetposlegol.baml" />
+    <None Remove="resources\-d1-84-d0-be-d0-bd4.jpg" />
+    <None Remove="resources\eyeopen.png" />
+    <None Remove="resources\win.png" />
+    <None Remove="app.baml" />
+    <None Remove="resources\btnadd2.png" />
+    <None Remove="resources\btnadd3.png" />
+    <None Remove="_accountsmanager\ucuiblock.baml" />
+    <None Remove="resources\accountsstatusdelete.png" />
+    <None Remove="resources\favoriteon.png" />
+    <None Remove="resources\proxy2.jpg" />
+    <None Remove="resources\choosecancel.png" />
+    <None Remove="_accountsmanager\ucsettingsfork.baml" />
+    <None Remove="resources\soundoff.png" />
+    <None Remove="snapshotsviewer\windowsnapshotsviewer.baml" />
+    <None Remove="poslegol" />
+    <None Remove="ksilofon" />
+    <None Remove="exit" />
+    <None Remove="start0" />
+    <EmbeddedResource Include="resources\btnplay.png" LogicalName="resources/btnplay.png" />
+    <EmbeddedResource Include="resources\qiwi.png" LogicalName="resources/qiwi.png" />
+    <EmbeddedResource Include="resources\btncupis.png" LogicalName="resources/btncupis.png" />
+    <EmbeddedResource Include="resources\fonts\harrington.ttf" LogicalName="resources/fonts/harrington.ttf" />
+    <EmbeddedResource Include="_accountsmanager\windowlogs.baml" LogicalName="_accountsmanager/windowlogs.baml" />
+    <EmbeddedResource Include="resources\btnsoundon.png" LogicalName="resources/btnsoundon.png" />
+    <EmbeddedResource Include="dropcoef\windowdropcoef.baml" LogicalName="dropcoef/windowdropcoef.baml" />
+    <EmbeddedResource Include="resources\btnsettings2.png" LogicalName="resources/btnsettings2.png" />
+    <EmbeddedResource Include="resources\lose.png" LogicalName="resources/lose.png" />
+    <EmbeddedResource Include="_accountsmanager\ucaccount.baml" LogicalName="_accountsmanager/ucaccount.baml" />
+    <EmbeddedResource Include="resources\accountadd.jpg" LogicalName="resources/accountadd.jpg" />
+    <EmbeddedResource Include="resources\btnforward.png" LogicalName="resources/btnforward.png" />
+    <EmbeddedResource Include="_accountsmanager\windowusers.baml" LogicalName="_accountsmanager/windowusers.baml" />
+    <EmbeddedResource Include="dictionaryresources.baml" LogicalName="dictionaryresources.baml" />
+    <EmbeddedResource Include="dropcoef\windowmatchline.baml" LogicalName="dropcoef/windowmatchline.baml" />
+    <EmbeddedResource Include="dropcoef\resources\dropcoef.png" LogicalName="dropcoef/resources/dropcoef.png" />
+    <EmbeddedResource Include="dropcoef\resources\dropcoef.ico" LogicalName="dropcoef/resources/dropcoef.ico" />
+    <EmbeddedResource Include="resources\success2.png" LogicalName="resources/success2.png" />
+    <EmbeddedResource Include="resources\btnedit.png" LogicalName="resources/btnedit.png" />
+    <EmbeddedResource Include="_accountsmanager\windowproxy.baml" LogicalName="_accountsmanager/windowproxy.baml" />
+    <EmbeddedResource Include="resources\mailbox.png" LogicalName="resources/mailbox.png" />
+    <EmbeddedResource Include="resources\yandex.png" LogicalName="resources/yandex.png" />
+    <EmbeddedResource Include="_accountsmanager\ucsettingsvaluescore.baml" LogicalName="_accountsmanager/ucsettingsvaluescore.baml" />
+    <EmbeddedResource Include="resources\btnsettings.png" LogicalName="resources/btnsettings.png" />
+    <EmbeddedResource Include="resources\piastrix.png" LogicalName="resources/piastrix.png" />
+    <EmbeddedResource Include="resources\btnstart2.png" LogicalName="resources/btnstart2.png" />
+    <EmbeddedResource Include="resources\chooseall.png" LogicalName="resources/chooseall.png" />
+    <EmbeddedResource Include="resources\search.png" LogicalName="resources/search.png" />
+    <EmbeddedResource Include="resources\btninfo5.png" LogicalName="resources/btninfo5.png" />
+    <EmbeddedResource Include="resources\btninfo8.png" LogicalName="resources/btninfo8.png" />
+    <EmbeddedResource Include="_accountsmanager\ucsettingsvaluesplus.baml" LogicalName="_accountsmanager/ucsettingsvaluesplus.baml" />
+    <EmbeddedResource Include="resources\fork.png" LogicalName="resources/fork.png" />
+    <EmbeddedResource Include="resources\btnwindow.png" LogicalName="resources/btnwindow.png" />
+    <EmbeddedResource Include="resources\btnopenfolder.png" LogicalName="resources/btnopenfolder.png" />
+    <EmbeddedResource Include="resources\linking.png" LogicalName="resources/linking.png" />
+    <EmbeddedResource Include="resources\simcards.png" LogicalName="resources/simcards.png" />
+    <EmbeddedResource Include="resources\lockopen.png" LogicalName="resources/lockopen.png" />
+    <EmbeddedResource Include="resources\accountsstatusdelete2.png" LogicalName="resources/accountsstatusdelete2.png" />
+    <EmbeddedResource Include="resources\btn_cancel.png" LogicalName="resources/btn_cancel.png" />
+    <EmbeddedResource Include="resources\value.png" LogicalName="resources/value.png" />
+    <EmbeddedResource Include="snapshotsviewer\resources\chart.ico" LogicalName="snapshotsviewer/resources/chart.ico" />
+    <EmbeddedResource Include="snapshotsviewer\resources\chart.jpg" LogicalName="snapshotsviewer/resources/chart.jpg" />
+    <EmbeddedResource Include="resources\btnback.png" LogicalName="resources/btnback.png" />
+    <EmbeddedResource Include="resources\delay.png" LogicalName="resources/delay.png" />
+    <EmbeddedResource Include="resources\logovk.png" LogicalName="resources/logovk.png" />
+    <EmbeddedResource Include="resources\btninternet4.png" LogicalName="resources/btninternet4.png" />
+    <EmbeddedResource Include="resources\poslegol.png" LogicalName="resources/poslegol.png" />
+    <EmbeddedResource Include="resources\btndelete2.png" LogicalName="resources/btndelete2.png" />
+    <EmbeddedResource Include="resources\btnhidetray3.png" LogicalName="resources/btnhidetray3.png" />
+    <EmbeddedResource Include="resources\delayscore1.png" LogicalName="resources/delayscore1.png" />
+    <EmbeddedResource Include="resources\diskette2.png" LogicalName="resources/diskette2.png" />
+    <EmbeddedResource Include="resources\diskette1.png" LogicalName="resources/diskette1.png" />
+    <EmbeddedResource Include="resources\success.png" LogicalName="resources/success.png" />
+    <EmbeddedResource Include="resources\btnsoundoff.png" LogicalName="resources/btnsoundoff.png" />
+    <EmbeddedResource Include="resources\btnadd.png" LogicalName="resources/btnadd.png" />
+    <EmbeddedResource Include="resources\btnstop.png" LogicalName="resources/btnstop.png" />
+    <EmbeddedResource Include="resources\am_logo3.png" LogicalName="resources/am_logo3.png" />
+    <EmbeddedResource Include="resources\am_logo3.ico" LogicalName="resources/am_logo3.ico" />
+    <EmbeddedResource Include="resources\am_logo2.png" LogicalName="resources/am_logo2.png" />
+    <EmbeddedResource Include="authdialog.baml" LogicalName="authdialog.baml" />
+    <EmbeddedResource Include="resources\soundon.png" LogicalName="resources/soundon.png" />
+    <EmbeddedResource Include="resources\proxy.jpg" LogicalName="resources/proxy.jpg" />
+    <EmbeddedResource Include="resources\browsers.png" LogicalName="resources/browsers.png" />
+    <EmbeddedResource Include="resources\btndelete.png" LogicalName="resources/btndelete.png" />
+    <EmbeddedResource Include="resources\lockclosed.png" LogicalName="resources/lockclosed.png" />
+    <EmbeddedResource Include="resources\gb.ico" LogicalName="resources/gb.ico" />
+    <EmbeddedResource Include="resources\monetix.png" LogicalName="resources/monetix.png" />
+    <EmbeddedResource Include="resources\ab.ico" LogicalName="resources/ab.ico" />
+    <EmbeddedResource Include="resources\money2.png" LogicalName="resources/money2.png" />
+    <EmbeddedResource Include="resources\money3.png" LogicalName="resources/money3.png" />
+    <EmbeddedResource Include="resources\money1.png" LogicalName="resources/money1.png" />
+    <EmbeddedResource Include="resources\btnpause.png" LogicalName="resources/btnpause.png" />
+    <EmbeddedResource Include="resources\money4.png" LogicalName="resources/money4.png" />
+    <EmbeddedResource Include="resources\favoriteoff.png" LogicalName="resources/favoriteoff.png" />
+    <EmbeddedResource Include="cupisdatabasewindow.baml" LogicalName="cupisdatabasewindow.baml" />
+    <EmbeddedResource Include="resources\eyeclosed.png" LogicalName="resources/eyeclosed.png" />
+    <EmbeddedResource Include="_accountsmanager\windowaccountsmanager.baml" LogicalName="_accountsmanager/windowaccountsmanager.baml" />
+    <EmbeddedResource Include="resources\accountsstatusedit.png" LogicalName="resources/accountsstatusedit.png" />
+    <EmbeddedResource Include="resources\btnproxy.jpg" LogicalName="resources/btnproxy.jpg" />
+    <EmbeddedResource Include="resources\logotelegram.png" LogicalName="resources/logotelegram.png" />
+    <EmbeddedResource Include="styles\customizedwindow\windowstyle.baml" LogicalName="styles/customizedwindow/windowstyle.baml" />
+    <EmbeddedResource Include="snapshotsviewer\windowsnapshotmatch.baml" LogicalName="snapshotsviewer/windowsnapshotmatch.baml" />
+    <EmbeddedResource Include="mainwindow.baml" LogicalName="mainwindow.baml" />
+    <EmbeddedResource Include="resources\btnrefresh.png" LogicalName="resources/btnrefresh.png" />
+    <EmbeddedResource Include="_accountsmanager\windowuser.baml" LogicalName="_accountsmanager/windowuser.baml" />
+    <EmbeddedResource Include="snapshotsviewer\resources\snapshotsviewer.jpg" LogicalName="snapshotsviewer/resources/snapshotsviewer.jpg" />
+    <EmbeddedResource Include="snapshotsviewer\resources\snapshotsviewer.ico" LogicalName="snapshotsviewer/resources/snapshotsviewer.ico" />
+    <EmbeddedResource Include="resources\maxthon_black.png" LogicalName="resources/maxthon_black.png" />
+    <EmbeddedResource Include="windowdialog.baml" LogicalName="windowdialog.baml" />
+    <EmbeddedResource Include="resources\1cupis.png" LogicalName="resources/1cupis.png" />
+    <EmbeddedResource Include="resources\am_logo.ico" LogicalName="resources/am_logo.ico" />
+    <EmbeddedResource Include="resources\am_logo.jpg" LogicalName="resources/am_logo.jpg" />
+    <EmbeddedResource Include="resources\am_logo.png" LogicalName="resources/am_logo.png" />
+    <EmbeddedResource Include="resources\players.png" LogicalName="resources/players.png" />
+    <EmbeddedResource Include="dropcoef\resources\background1.jpg" LogicalName="dropcoef/resources/background1.jpg" />
+    <EmbeddedResource Include="_accountsmanager\ucsettingsvalue.baml" LogicalName="_accountsmanager/ucsettingsvalue.baml" />
+    <EmbeddedResource Include="_accountsmanager\ucsettingsposlegol.baml" LogicalName="_accountsmanager/ucsettingsposlegol.baml" />
+    <EmbeddedResource Include="resources\btnkeyoff1.png" LogicalName="resources/btnkeyoff1.png" />
+    <EmbeddedResource Include="resources\exit.png" LogicalName="resources/exit.png" />
+    <EmbeddedResource Include="resources\mailru.png" LogicalName="resources/mailru.png" />
+    <EmbeddedResource Include="windowinfo.baml" LogicalName="windowinfo.baml" />
+    <EmbeddedResource Include="resources\qiwi2.png" LogicalName="resources/qiwi2.png" />
+    <EmbeddedResource Include="resources\qiwi3.png" LogicalName="resources/qiwi3.png" />
+    <EmbeddedResource Include="resources\users.png" LogicalName="resources/users.png" />
+    <EmbeddedResource Include="resources\btnchange.png" LogicalName="resources/btnchange.png" />
+    <EmbeddedResource Include="resources\backgroundab6.jpg" LogicalName="resources/backgroundab6.jpg" />
+    <EmbeddedResource Include="resources\backgroundab4.jpg" LogicalName="resources/backgroundab4.jpg" />
+    <EmbeddedResource Include="resources\backgroundab7.jpg" LogicalName="resources/backgroundab7.jpg" />
+    <EmbeddedResource Include="resources\backgroundab2.jpg" LogicalName="resources/backgroundab2.jpg" />
+    <EmbeddedResource Include="resources\backgroundab5.jpg" LogicalName="resources/backgroundab5.jpg" />
+    <EmbeddedResource Include="resources\backgroundab3.jpg" LogicalName="resources/backgroundab3.jpg" />
+    <EmbeddedResource Include="resources\backgroundab1.jpg" LogicalName="resources/backgroundab1.jpg" />
+    <EmbeddedResource Include="resources\user2.jpg" LogicalName="resources/user2.jpg" />
+    <EmbeddedResource Include="resources\btnhide.png" LogicalName="resources/btnhide.png" />
+    <EmbeddedResource Include="resources\user3.png" LogicalName="resources/user3.png" />
+    <EmbeddedResource Include="resources\menu4.png" LogicalName="resources/menu4.png" />
+    <EmbeddedResource Include="resources\btnstart.png" LogicalName="resources/btnstart.png" />
+    <EmbeddedResource Include="resources\filter.png" LogicalName="resources/filter.png" />
+    <EmbeddedResource Include="resources\btncopy.png" LogicalName="resources/btncopy.png" />
+    <EmbeddedResource Include="resources\telegram.png" LogicalName="resources/telegram.png" />
+    <EmbeddedResource Include="resources\btnsave.png" LogicalName="resources/btnsave.png" />
+    <EmbeddedResource Include="resources\background1.jpg" LogicalName="resources/background1.jpg" />
+    <EmbeddedResource Include="resources\background2.jpg" LogicalName="resources/background2.jpg" />
+    <EmbeddedResource Include="_accountsmanager\windowaccountsettings.baml" LogicalName="_accountsmanager/windowaccountsettings.baml" />
+    <EmbeddedResource Include="resources\btnclose.png" LogicalName="resources/btnclose.png" />
+    <EmbeddedResource Include="resources\btnsearch.png" LogicalName="resources/btnsearch.png" />
+    <EmbeddedResource Include="resources\accountsstatusadd_.png" LogicalName="resources/accountsstatusadd_.png" />
+    <EmbeddedResource Include="_accountsmanager\ucbetposlegol.baml" LogicalName="_accountsmanager/ucbetposlegol.baml" />
+    <EmbeddedResource Include="resources\-d1-84-d0-be-d0-bd4.jpg" LogicalName="resources/%d1%84%d0%be%d0%bd4.jpg" />
+    <EmbeddedResource Include="resources\eyeopen.png" LogicalName="resources/eyeopen.png" />
+    <EmbeddedResource Include="resources\win.png" LogicalName="resources/win.png" />
+    <EmbeddedResource Include="app.baml" LogicalName="app.baml" />
+    <EmbeddedResource Include="resources\btnadd2.png" LogicalName="resources/btnadd2.png" />
+    <EmbeddedResource Include="resources\btnadd3.png" LogicalName="resources/btnadd3.png" />
+    <EmbeddedResource Include="_accountsmanager\ucuiblock.baml" LogicalName="_accountsmanager/ucuiblock.baml" />
+    <EmbeddedResource Include="resources\accountsstatusdelete.png" LogicalName="resources/accountsstatusdelete.png" />
+    <EmbeddedResource Include="resources\favoriteon.png" LogicalName="resources/favoriteon.png" />
+    <EmbeddedResource Include="resources\proxy2.jpg" LogicalName="resources/proxy2.jpg" />
+    <EmbeddedResource Include="resources\choosecancel.png" LogicalName="resources/choosecancel.png" />
+    <EmbeddedResource Include="_accountsmanager\ucsettingsfork.baml" LogicalName="_accountsmanager/ucsettingsfork.baml" />
+    <EmbeddedResource Include="resources\soundoff.png" LogicalName="resources/soundoff.png" />
+    <EmbeddedResource Include="snapshotsviewer\windowsnapshotsviewer.baml" LogicalName="snapshotsviewer/windowsnapshotsviewer.baml" />
+    <EmbeddedResource Include="poslegol" LogicalName="poslegol" />
+    <EmbeddedResource Include="ksilofon" LogicalName="ksilofon" />
+    <EmbeddedResource Include="exit" LogicalName="exit" />
+    <EmbeddedResource Include="start0" LogicalName="start0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="AccountsLibrary">
+      <HintPath>..\..\..\BetRadar\guppy\AccountsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="SnapshotsLibrary">
+      <HintPath>..\..\..\BetRadar\guppy\SnapshotsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CompareLibrary">
+      <HintPath>..\..\..\BetRadar\guppy\CompareLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="BookmakerLibrary">
+      <HintPath>..\..\..\BetRadar\guppy\BookmakerLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLibrary">
+      <HintPath>..\..\..\BetRadar\guppy\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WatsonTcp">
+      <HintPath>..\..\..\BetRadar\guppy\WatsonTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP">
+      <HintPath>..\..\..\BetRadar\guppy\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\BetRadar\guppy\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>..\..\..\BetRadar\guppy\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="Titanium.Web.Proxy">
+      <HintPath>..\..\..\BetRadar\guppy\Titanium.Web.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\..\..\BetRadar\guppy\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml" />
+    <Reference Include="LiveChartsCore">
+      <HintPath>..\..\..\BetRadar\guppy\LiveChartsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\..\..\BetRadar\guppy\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveChartsCore.SkiaSharpView">
+      <HintPath>..\..\..\BetRadar\guppy\LiveChartsCore.SkiaSharpView.dll</HintPath>
+    </Reference>
+    <Reference Include="starksoft.aspen">
+      <HintPath>..\..\..\BetRadar\guppy\starksoft.aspen.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="StrategyLibrary">
+      <HintPath>..\..\..\BetRadar\guppy\StrategyLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
