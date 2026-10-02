@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>StrategyLibrary</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="BookmakerLibrary">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\BookmakerLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\protobuf-net.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="CompareLibrary">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\CompareLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

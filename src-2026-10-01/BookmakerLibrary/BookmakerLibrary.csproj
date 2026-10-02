@@ -1,0 +1,307 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BookmakerLibrary</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\sportimages\8_c.png" />
+    <None Remove="resources\sportimages\2_c.png" />
+    <None Remove="resources\bcimages\ligastavokcom.jpg" />
+    <None Remove="resources\bcimages\zenit.jpg" />
+    <None Remove="resources\sportimages\14_c.png" />
+    <None Remove="resources\sportimages\1_c.png" />
+    <None Remove="resources\bcimages\betboom.jpg" />
+    <None Remove="resources\sportimages\3.png" />
+    <None Remove="resources\sportimages\2.png" />
+    <None Remove="resources\sportimages\1.png" />
+    <None Remove="resources\sportimages\7.png" />
+    <None Remove="resources\sportimages\6.png" />
+    <None Remove="resources\sportimages\5.png" />
+    <None Remove="resources\sportimages\4.png" />
+    <None Remove="resources\sportimages\8.png" />
+    <None Remove="resources\bcimages\fonbetcom.jpg" />
+    <None Remove="resources\bcimages\ligastavokru.jpg" />
+    <None Remove="resources\sportimages\124.png" />
+    <None Remove="resources\bcimages\marathonru.jpg" />
+    <None Remove="resources\bcimages\melbet.jpg" />
+    <None Remove="resources\bcimages\icons\_1win.ico" />
+    <None Remove="resources\bcimages\parimatch.jpg" />
+    <None Remove="resources\bcimages\bettingcenter.jpg" />
+    <None Remove="resources\sportimages\6_c.png" />
+    <None Remove="resources\bcimages\paribetru.jpg" />
+    <None Remove="resources\sportimages\29_c.png" />
+    <None Remove="resources\bcimages\icons\spinbetter.ico" />
+    <None Remove="resources\sportimages\5_c.png" />
+    <None Remove="resources\bcimages\icons\betteryru.ico" />
+    <None Remove="resources\sportimages\188.png" />
+    <None Remove="resources\bcimages\ftpupdater.jpg" />
+    <None Remove="resources\bcimages\betcity.jpg" />
+    <None Remove="resources\bcimages\icons\fonbetru.ico" />
+    <None Remove="resources\bcimages\_1xbit.jpg" />
+    <None Remove="resources\bcimages\baltbetru.jpg" />
+    <None Remove="resources\sportimages\13_c.png" />
+    <None Remove="resources\bcimages\icons\betwinner.ico" />
+    <None Remove="resources\bcimages\strategiescenter.jpg" />
+    <None Remove="resources\bcimages\icons\ligastavokru.ico" />
+    <None Remove="resources\bcimages\icons\leonru.ico" />
+    <None Remove="resources\bcimages\_1xbet.jpg" />
+    <None Remove="resources\bcimages\icons\melbet.ico" />
+    <None Remove="resources\bcimages\beterco.jpg" />
+    <None Remove="resources\bcimages\gbserver.jpg" />
+    <None Remove="resources\bcimages\icons\parimatch.ico" />
+    <None Remove="resources\bcimages\icons\_1xbit.ico" />
+    <None Remove="resources\sportimages\3_c.png" />
+    <None Remove="resources\bcimages\olimpcom.jpg" />
+    <None Remove="resources\bcimages\cupisbot.jpg" />
+    <None Remove="resources\bcimages\icons\zenitwin.ico" />
+    <None Remove="resources\bcimages\leonru.jpg" />
+    <None Remove="resources\bcimages\_1win.jpg" />
+    <None Remove="resources\bcimages\betwinner.jpg" />
+    <None Remove="resources\bcimages\icons\baltbetru.ico" />
+    <None Remove="resources\sportimages\17_c.png" />
+    <None Remove="resources\bcimages\icons\_1xbet.ico" />
+    <None Remove="resources\bcimages\icons\setkacupprovider.ico" />
+    <None Remove="resources\bcimages\managerserver.jpg" />
+    <None Remove="resources\bcimages\baltbet.jpg" />
+    <None Remove="resources\bcimages\icons\tennisibet.ico" />
+    <None Remove="resources\bcimages\icons\tennisi.ico" />
+    <None Remove="resources\sportimages\7_c.png" />
+    <None Remove="resources\bcimages\icons\zenit.ico" />
+    <None Remove="resources\bcimages\icons\betcityru.ico" />
+    <None Remove="resources\bcimages\comparecenter.jpg" />
+    <None Remove="resources\bcimages\dataserverlines.jpg" />
+    <None Remove="resources\bcimages\winline.jpg" />
+    <None Remove="resources\bcimages\icons\marathon.ico" />
+    <None Remove="resources\bcimages\icons\melbetru.ico" />
+    <None Remove="resources\bcimages\tennisibet.jpg" />
+    <None Remove="resources\bcimages\icons\betcity.ico" />
+    <None Remove="resources\bcimages\datacenter.jpg" />
+    <None Remove="resources\bcimages\lineserver.jpg" />
+    <None Remove="resources\sportimages\30.png" />
+    <None Remove="resources\sportimages\39.png" />
+    <None Remove="resources\sportimages\25.png" />
+    <None Remove="resources\sportimages\28.png" />
+    <None Remove="resources\sportimages\27.png" />
+    <None Remove="resources\sportimages\29.png" />
+    <None Remove="resources\sportimages\12.png" />
+    <None Remove="resources\sportimages\13.png" />
+    <None Remove="resources\sportimages\10.png" />
+    <None Remove="resources\sportimages\16.png" />
+    <None Remove="resources\sportimages\17.png" />
+    <None Remove="resources\sportimages\14.png" />
+    <None Remove="resources\sportimages\15.png" />
+    <None Remove="resources\sportimages\16_c.png" />
+    <None Remove="resources\bcimages\leon.jpg" />
+    <None Remove="resources\bcimages\olimpkz.jpg" />
+    <None Remove="resources\bcimages\betcityline.jpg" />
+    <None Remove="resources\sportimages\66.png" />
+    <None Remove="resources\sportimages\67.png" />
+    <None Remove="resources\sportimages\68.png" />
+    <None Remove="resources\sportimages\44.png" />
+    <None Remove="resources\sportimages\41.png" />
+    <None Remove="resources\bcimages\zenitwin.jpg" />
+    <None Remove="resources\bcimages\olimpbet.jpg" />
+    <None Remove="resources\bcimages\marathon.jpg" />
+    <None Remove="resources\bcimages\spinbetter.jpg" />
+    <None Remove="resources\bcimages\setkacupprovider.jpg" />
+    <None Remove="resources\bcimages\icons\leon.ico" />
+    <None Remove="resources\sportimages\82.png" />
+    <None Remove="resources\sportimages\28_c.png" />
+    <None Remove="resources\bcimages\icons\_1xstavka.ico" />
+    <None Remove="resources\bcimages\icons\olimpkz.ico" />
+    <None Remove="resources\bcimages\icons\marathonru.ico" />
+    <None Remove="resources\sportimages\15_c.png" />
+    <None Remove="resources\bcimages\icons\parimatchru.ico" />
+    <None Remove="resources\bcimages\icons\ligastavokcom.ico" />
+    <None Remove="resources\bcimages\accountsserver.jpg" />
+    <None Remove="resources\bcimages\icons\olimpbet.ico" />
+    <None Remove="resources\bcimages\scout.jpg" />
+    <None Remove="resources\bcimages\betcityru.jpg" />
+    <None Remove="resources\bcimages\icons\baltbet.ico" />
+    <None Remove="resources\bcimages\scoutsserver.jpg" />
+    <None Remove="resources\bcimages\melbetru.jpg" />
+    <None Remove="resources\bcimages\_1xstavka.jpg" />
+    <None Remove="resources\bcimages\icons\betcityline.ico" />
+    <None Remove="resources\bcimages\tennisi.jpg" />
+    <None Remove="resources\sportimages\4_c.png" />
+    <None Remove="resources\bcimages\icons\betboom.ico" />
+    <None Remove="resources\bcimages\autobetting.jpg" />
+    <None Remove="resources\bcimages\betteryru.jpg" />
+    <None Remove="resources\bcimages\betteryru.png" />
+    <None Remove="resources\bcimages\fonbetru.jpg" />
+    <None Remove="resources\sportimages\10_c.png" />
+    <None Remove="resources\bcimages\icons\fonbetcom.ico" />
+    <None Remove="resources\bcimages\winlineline.jpg" />
+    <None Remove="resources\bcimages\accountscenter.jpg" />
+    <None Remove="resources\bcimages\parimatchru.jpg" />
+    <None Remove="resources\bcimages\icons\paribetru.ico" />
+    <None Remove="resources\bcimages\icons\winline.ico" />
+    <None Remove="resources\bcimages\icons\olimpcom.ico" />
+    <None Remove="resources\bcimages\fonbetruline.jpg" />
+    <None Remove="resources\sportimages\3_c_2.png" />
+    <EmbeddedResource Include="resources\sportimages\8_c.png" LogicalName="resources/sportimages/8_c.png" />
+    <EmbeddedResource Include="resources\sportimages\2_c.png" LogicalName="resources/sportimages/2_c.png" />
+    <EmbeddedResource Include="resources\bcimages\ligastavokcom.jpg" LogicalName="resources/bcimages/ligastavokcom.jpg" />
+    <EmbeddedResource Include="resources\bcimages\zenit.jpg" LogicalName="resources/bcimages/zenit.jpg" />
+    <EmbeddedResource Include="resources\sportimages\14_c.png" LogicalName="resources/sportimages/14_c.png" />
+    <EmbeddedResource Include="resources\sportimages\1_c.png" LogicalName="resources/sportimages/1_c.png" />
+    <EmbeddedResource Include="resources\bcimages\betboom.jpg" LogicalName="resources/bcimages/betboom.jpg" />
+    <EmbeddedResource Include="resources\sportimages\3.png" LogicalName="resources/sportimages/3.png" />
+    <EmbeddedResource Include="resources\sportimages\2.png" LogicalName="resources/sportimages/2.png" />
+    <EmbeddedResource Include="resources\sportimages\1.png" LogicalName="resources/sportimages/1.png" />
+    <EmbeddedResource Include="resources\sportimages\7.png" LogicalName="resources/sportimages/7.png" />
+    <EmbeddedResource Include="resources\sportimages\6.png" LogicalName="resources/sportimages/6.png" />
+    <EmbeddedResource Include="resources\sportimages\5.png" LogicalName="resources/sportimages/5.png" />
+    <EmbeddedResource Include="resources\sportimages\4.png" LogicalName="resources/sportimages/4.png" />
+    <EmbeddedResource Include="resources\sportimages\8.png" LogicalName="resources/sportimages/8.png" />
+    <EmbeddedResource Include="resources\bcimages\fonbetcom.jpg" LogicalName="resources/bcimages/fonbetcom.jpg" />
+    <EmbeddedResource Include="resources\bcimages\ligastavokru.jpg" LogicalName="resources/bcimages/ligastavokru.jpg" />
+    <EmbeddedResource Include="resources\sportimages\124.png" LogicalName="resources/sportimages/124.png" />
+    <EmbeddedResource Include="resources\bcimages\marathonru.jpg" LogicalName="resources/bcimages/marathonru.jpg" />
+    <EmbeddedResource Include="resources\bcimages\melbet.jpg" LogicalName="resources/bcimages/melbet.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\_1win.ico" LogicalName="resources/bcimages/icons/_1win.ico" />
+    <EmbeddedResource Include="resources\bcimages\parimatch.jpg" LogicalName="resources/bcimages/parimatch.jpg" />
+    <EmbeddedResource Include="resources\bcimages\bettingcenter.jpg" LogicalName="resources/bcimages/bettingcenter.jpg" />
+    <EmbeddedResource Include="resources\sportimages\6_c.png" LogicalName="resources/sportimages/6_c.png" />
+    <EmbeddedResource Include="resources\bcimages\paribetru.jpg" LogicalName="resources/bcimages/paribetru.jpg" />
+    <EmbeddedResource Include="resources\sportimages\29_c.png" LogicalName="resources/sportimages/29_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\spinbetter.ico" LogicalName="resources/bcimages/icons/spinbetter.ico" />
+    <EmbeddedResource Include="resources\sportimages\5_c.png" LogicalName="resources/sportimages/5_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\betteryru.ico" LogicalName="resources/bcimages/icons/betteryru.ico" />
+    <EmbeddedResource Include="resources\sportimages\188.png" LogicalName="resources/sportimages/188.png" />
+    <EmbeddedResource Include="resources\bcimages\ftpupdater.jpg" LogicalName="resources/bcimages/ftpupdater.jpg" />
+    <EmbeddedResource Include="resources\bcimages\betcity.jpg" LogicalName="resources/bcimages/betcity.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\fonbetru.ico" LogicalName="resources/bcimages/icons/fonbetru.ico" />
+    <EmbeddedResource Include="resources\bcimages\_1xbit.jpg" LogicalName="resources/bcimages/_1xbit.jpg" />
+    <EmbeddedResource Include="resources\bcimages\baltbetru.jpg" LogicalName="resources/bcimages/baltbetru.jpg" />
+    <EmbeddedResource Include="resources\sportimages\13_c.png" LogicalName="resources/sportimages/13_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\betwinner.ico" LogicalName="resources/bcimages/icons/betwinner.ico" />
+    <EmbeddedResource Include="resources\bcimages\strategiescenter.jpg" LogicalName="resources/bcimages/strategiescenter.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\ligastavokru.ico" LogicalName="resources/bcimages/icons/ligastavokru.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\leonru.ico" LogicalName="resources/bcimages/icons/leonru.ico" />
+    <EmbeddedResource Include="resources\bcimages\_1xbet.jpg" LogicalName="resources/bcimages/_1xbet.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\melbet.ico" LogicalName="resources/bcimages/icons/melbet.ico" />
+    <EmbeddedResource Include="resources\bcimages\beterco.jpg" LogicalName="resources/bcimages/beterco.jpg" />
+    <EmbeddedResource Include="resources\bcimages\gbserver.jpg" LogicalName="resources/bcimages/gbserver.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\parimatch.ico" LogicalName="resources/bcimages/icons/parimatch.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\_1xbit.ico" LogicalName="resources/bcimages/icons/_1xbit.ico" />
+    <EmbeddedResource Include="resources\sportimages\3_c.png" LogicalName="resources/sportimages/3_c.png" />
+    <EmbeddedResource Include="resources\bcimages\olimpcom.jpg" LogicalName="resources/bcimages/olimpcom.jpg" />
+    <EmbeddedResource Include="resources\bcimages\cupisbot.jpg" LogicalName="resources/bcimages/cupisbot.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\zenitwin.ico" LogicalName="resources/bcimages/icons/zenitwin.ico" />
+    <EmbeddedResource Include="resources\bcimages\leonru.jpg" LogicalName="resources/bcimages/leonru.jpg" />
+    <EmbeddedResource Include="resources\bcimages\_1win.jpg" LogicalName="resources/bcimages/_1win.jpg" />
+    <EmbeddedResource Include="resources\bcimages\betwinner.jpg" LogicalName="resources/bcimages/betwinner.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\baltbetru.ico" LogicalName="resources/bcimages/icons/baltbetru.ico" />
+    <EmbeddedResource Include="resources\sportimages\17_c.png" LogicalName="resources/sportimages/17_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\_1xbet.ico" LogicalName="resources/bcimages/icons/_1xbet.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\setkacupprovider.ico" LogicalName="resources/bcimages/icons/setkacupprovider.ico" />
+    <EmbeddedResource Include="resources\bcimages\managerserver.jpg" LogicalName="resources/bcimages/managerserver.jpg" />
+    <EmbeddedResource Include="resources\bcimages\baltbet.jpg" LogicalName="resources/bcimages/baltbet.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\tennisibet.ico" LogicalName="resources/bcimages/icons/tennisibet.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\tennisi.ico" LogicalName="resources/bcimages/icons/tennisi.ico" />
+    <EmbeddedResource Include="resources\sportimages\7_c.png" LogicalName="resources/sportimages/7_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\zenit.ico" LogicalName="resources/bcimages/icons/zenit.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\betcityru.ico" LogicalName="resources/bcimages/icons/betcityru.ico" />
+    <EmbeddedResource Include="resources\bcimages\comparecenter.jpg" LogicalName="resources/bcimages/comparecenter.jpg" />
+    <EmbeddedResource Include="resources\bcimages\dataserverlines.jpg" LogicalName="resources/bcimages/dataserverlines.jpg" />
+    <EmbeddedResource Include="resources\bcimages\winline.jpg" LogicalName="resources/bcimages/winline.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\marathon.ico" LogicalName="resources/bcimages/icons/marathon.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\melbetru.ico" LogicalName="resources/bcimages/icons/melbetru.ico" />
+    <EmbeddedResource Include="resources\bcimages\tennisibet.jpg" LogicalName="resources/bcimages/tennisibet.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\betcity.ico" LogicalName="resources/bcimages/icons/betcity.ico" />
+    <EmbeddedResource Include="resources\bcimages\datacenter.jpg" LogicalName="resources/bcimages/datacenter.jpg" />
+    <EmbeddedResource Include="resources\bcimages\lineserver.jpg" LogicalName="resources/bcimages/lineserver.jpg" />
+    <EmbeddedResource Include="resources\sportimages\30.png" LogicalName="resources/sportimages/30.png" />
+    <EmbeddedResource Include="resources\sportimages\39.png" LogicalName="resources/sportimages/39.png" />
+    <EmbeddedResource Include="resources\sportimages\25.png" LogicalName="resources/sportimages/25.png" />
+    <EmbeddedResource Include="resources\sportimages\28.png" LogicalName="resources/sportimages/28.png" />
+    <EmbeddedResource Include="resources\sportimages\27.png" LogicalName="resources/sportimages/27.png" />
+    <EmbeddedResource Include="resources\sportimages\29.png" LogicalName="resources/sportimages/29.png" />
+    <EmbeddedResource Include="resources\sportimages\12.png" LogicalName="resources/sportimages/12.png" />
+    <EmbeddedResource Include="resources\sportimages\13.png" LogicalName="resources/sportimages/13.png" />
+    <EmbeddedResource Include="resources\sportimages\10.png" LogicalName="resources/sportimages/10.png" />
+    <EmbeddedResource Include="resources\sportimages\16.png" LogicalName="resources/sportimages/16.png" />
+    <EmbeddedResource Include="resources\sportimages\17.png" LogicalName="resources/sportimages/17.png" />
+    <EmbeddedResource Include="resources\sportimages\14.png" LogicalName="resources/sportimages/14.png" />
+    <EmbeddedResource Include="resources\sportimages\15.png" LogicalName="resources/sportimages/15.png" />
+    <EmbeddedResource Include="resources\sportimages\16_c.png" LogicalName="resources/sportimages/16_c.png" />
+    <EmbeddedResource Include="resources\bcimages\leon.jpg" LogicalName="resources/bcimages/leon.jpg" />
+    <EmbeddedResource Include="resources\bcimages\olimpkz.jpg" LogicalName="resources/bcimages/olimpkz.jpg" />
+    <EmbeddedResource Include="resources\bcimages\betcityline.jpg" LogicalName="resources/bcimages/betcityline.jpg" />
+    <EmbeddedResource Include="resources\sportimages\66.png" LogicalName="resources/sportimages/66.png" />
+    <EmbeddedResource Include="resources\sportimages\67.png" LogicalName="resources/sportimages/67.png" />
+    <EmbeddedResource Include="resources\sportimages\68.png" LogicalName="resources/sportimages/68.png" />
+    <EmbeddedResource Include="resources\sportimages\44.png" LogicalName="resources/sportimages/44.png" />
+    <EmbeddedResource Include="resources\sportimages\41.png" LogicalName="resources/sportimages/41.png" />
+    <EmbeddedResource Include="resources\bcimages\zenitwin.jpg" LogicalName="resources/bcimages/zenitwin.jpg" />
+    <EmbeddedResource Include="resources\bcimages\olimpbet.jpg" LogicalName="resources/bcimages/olimpbet.jpg" />
+    <EmbeddedResource Include="resources\bcimages\marathon.jpg" LogicalName="resources/bcimages/marathon.jpg" />
+    <EmbeddedResource Include="resources\bcimages\spinbetter.jpg" LogicalName="resources/bcimages/spinbetter.jpg" />
+    <EmbeddedResource Include="resources\bcimages\setkacupprovider.jpg" LogicalName="resources/bcimages/setkacupprovider.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\leon.ico" LogicalName="resources/bcimages/icons/leon.ico" />
+    <EmbeddedResource Include="resources\sportimages\82.png" LogicalName="resources/sportimages/82.png" />
+    <EmbeddedResource Include="resources\sportimages\28_c.png" LogicalName="resources/sportimages/28_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\_1xstavka.ico" LogicalName="resources/bcimages/icons/_1xstavka.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\olimpkz.ico" LogicalName="resources/bcimages/icons/olimpkz.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\marathonru.ico" LogicalName="resources/bcimages/icons/marathonru.ico" />
+    <EmbeddedResource Include="resources\sportimages\15_c.png" LogicalName="resources/sportimages/15_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\parimatchru.ico" LogicalName="resources/bcimages/icons/parimatchru.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\ligastavokcom.ico" LogicalName="resources/bcimages/icons/ligastavokcom.ico" />
+    <EmbeddedResource Include="resources\bcimages\accountsserver.jpg" LogicalName="resources/bcimages/accountsserver.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\olimpbet.ico" LogicalName="resources/bcimages/icons/olimpbet.ico" />
+    <EmbeddedResource Include="resources\bcimages\scout.jpg" LogicalName="resources/bcimages/scout.jpg" />
+    <EmbeddedResource Include="resources\bcimages\betcityru.jpg" LogicalName="resources/bcimages/betcityru.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\baltbet.ico" LogicalName="resources/bcimages/icons/baltbet.ico" />
+    <EmbeddedResource Include="resources\bcimages\scoutsserver.jpg" LogicalName="resources/bcimages/scoutsserver.jpg" />
+    <EmbeddedResource Include="resources\bcimages\melbetru.jpg" LogicalName="resources/bcimages/melbetru.jpg" />
+    <EmbeddedResource Include="resources\bcimages\_1xstavka.jpg" LogicalName="resources/bcimages/_1xstavka.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\betcityline.ico" LogicalName="resources/bcimages/icons/betcityline.ico" />
+    <EmbeddedResource Include="resources\bcimages\tennisi.jpg" LogicalName="resources/bcimages/tennisi.jpg" />
+    <EmbeddedResource Include="resources\sportimages\4_c.png" LogicalName="resources/sportimages/4_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\betboom.ico" LogicalName="resources/bcimages/icons/betboom.ico" />
+    <EmbeddedResource Include="resources\bcimages\autobetting.jpg" LogicalName="resources/bcimages/autobetting.jpg" />
+    <EmbeddedResource Include="resources\bcimages\betteryru.jpg" LogicalName="resources/bcimages/betteryru.jpg" />
+    <EmbeddedResource Include="resources\bcimages\betteryru.png" LogicalName="resources/bcimages/betteryru.png" />
+    <EmbeddedResource Include="resources\bcimages\fonbetru.jpg" LogicalName="resources/bcimages/fonbetru.jpg" />
+    <EmbeddedResource Include="resources\sportimages\10_c.png" LogicalName="resources/sportimages/10_c.png" />
+    <EmbeddedResource Include="resources\bcimages\icons\fonbetcom.ico" LogicalName="resources/bcimages/icons/fonbetcom.ico" />
+    <EmbeddedResource Include="resources\bcimages\winlineline.jpg" LogicalName="resources/bcimages/winlineline.jpg" />
+    <EmbeddedResource Include="resources\bcimages\accountscenter.jpg" LogicalName="resources/bcimages/accountscenter.jpg" />
+    <EmbeddedResource Include="resources\bcimages\parimatchru.jpg" LogicalName="resources/bcimages/parimatchru.jpg" />
+    <EmbeddedResource Include="resources\bcimages\icons\paribetru.ico" LogicalName="resources/bcimages/icons/paribetru.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\winline.ico" LogicalName="resources/bcimages/icons/winline.ico" />
+    <EmbeddedResource Include="resources\bcimages\icons\olimpcom.ico" LogicalName="resources/bcimages/icons/olimpcom.ico" />
+    <EmbeddedResource Include="resources\bcimages\fonbetruline.jpg" LogicalName="resources/bcimages/fonbetruline.jpg" />
+    <EmbeddedResource Include="resources\sportimages\3_c_2.png" LogicalName="resources/sportimages/3_c_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="CommonLibrary">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="protobuf-net.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\protobuf-net.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="WatsonTcp">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\WatsonTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

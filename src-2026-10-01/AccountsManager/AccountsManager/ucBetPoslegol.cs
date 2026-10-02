@@ -1,0 +1,39 @@
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Markup;
+
+namespace AccountsManager;
+
+public class ucBetPoslegol : UserControl, IComponentConnector
+{
+	private bool _contentLoaded;
+
+	public ucBetPoslegol()
+	{
+		InitializeComponent();
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("PresentationBuildTasks", "4.0.0.0")]
+	public void InitializeComponent()
+	{
+		if (!_contentLoaded)
+		{
+			_contentLoaded = true;
+			Uri resourceLocater = new Uri("/AccountsManager;component/_accountsmanager/ucbetposlegol.xaml", UriKind.Relative);
+			Application.LoadComponent(this, resourceLocater);
+		}
+	}
+
+	[DebuggerNonUserCode]
+	[GeneratedCode("PresentationBuildTasks", "4.0.0.0")]
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	void IComponentConnector.Connect(int connectionId, object target)
+	{
+		_contentLoaded = true;
+	}
+}

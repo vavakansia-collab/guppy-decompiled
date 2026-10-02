@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>UpdateUploader</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.costura.pdb.compressed" />
+    <None Remove="costura.fluentftp.dll.compressed" />
+    <None Remove="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <None Remove="costura.metadata" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" LogicalName="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.fluentftp.dll.compressed" LogicalName="costura.fluentftp.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.diagnosticsource.dll.compressed" LogicalName="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" LogicalName="costura.metadata" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FluentFTP">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+  </ItemGroup>
+</Project>

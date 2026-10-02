@@ -1,0 +1,79 @@
+﻿{
+    "decompiler":  "ILSpyCmd 9.1.0.7988",
+    "decompiledAt":  "2026-10-02T17:23:21.4313045+03:00",
+    "sourceDirectory":  "C:\\Users\\Andrey\\AppData\\Roaming\\guppy.bet\\Accounts Manager",
+    "projects":  [
+                     {
+                         "assembly":  "AccountsManager.exe",
+                         "sha256":  "bcda9d6c6d1f754c5eb5c1f9644baece4ff85a5b077ec70d3038fe96741b52ce",
+                         "sizeBytes":  12377600,
+                         "builtAt":  "2026-10-01T16:19:04.0000000+03:00",
+                         "pdbAvailable":  true,
+                         "csFiles":  151
+                     },
+                     {
+                         "assembly":  "AccountsLibrary.dll",
+                         "sha256":  "47d0fca76355c58e8e6b1c3b690c44ab5ce0252abd68337682092e4fe040b502",
+                         "sizeBytes":  137216,
+                         "builtAt":  "2026-10-01T16:19:00.0000000+03:00",
+                         "pdbAvailable":  true,
+                         "csFiles":  88
+                     },
+                     {
+                         "assembly":  "BookmakerLibrary.dll",
+                         "sha256":  "a8ce291505a7f0130cf558f5a5748dd9d23a60221a3eceef3d22ea76f4ff406d",
+                         "sizeBytes":  9999360,
+                         "builtAt":  "2026-10-01T16:18:58.0000000+03:00",
+                         "pdbAvailable":  false,
+                         "csFiles":  49
+                     },
+                     {
+                         "assembly":  "CommonLibrary.dll",
+                         "sha256":  "1fee1f52723a50cdab56a647f2ff7b11996183b1390c286dffae0608c143e2f5",
+                         "sizeBytes":  351744,
+                         "builtAt":  "2026-10-01T16:18:58.0000000+03:00",
+                         "pdbAvailable":  true,
+                         "csFiles":  20
+                     },
+                     {
+                         "assembly":  "CompareLibrary.dll",
+                         "sha256":  "6ca8133cf965232e57b7d0a2f03b5ff269c7265593184d86c96f4b4c1f17024e",
+                         "sizeBytes":  11264,
+                         "builtAt":  "2026-10-01T16:18:58.0000000+03:00",
+                         "pdbAvailable":  true,
+                         "csFiles":  5
+                     },
+                     {
+                         "assembly":  "SnapshotsLibrary.dll",
+                         "sha256":  "7dfeb5842efcffcd34829be841a28a6d3efc33f1730c90ded083eeee2b9f274e",
+                         "sizeBytes":  17408,
+                         "builtAt":  "2026-10-01T16:18:58.0000000+03:00",
+                         "pdbAvailable":  true,
+                         "csFiles":  12
+                     },
+                     {
+                         "assembly":  "StrategyLibrary.dll",
+                         "sha256":  "b9e6480efb0009293ddac812b0679ea36c7580c30c086d965d4c84c529876d0a",
+                         "sizeBytes":  18432,
+                         "builtAt":  "2026-10-01T16:19:00.0000000+03:00",
+                         "pdbAvailable":  true,
+                         "csFiles":  9
+                     },
+                     {
+                         "assembly":  "AccountsManagerUpdater.exe",
+                         "sha256":  "8bc34ddc8f8fd356fd359384dfb29b986c69298dd4e731c9f1112d8063c8fb3e",
+                         "sizeBytes":  1015808,
+                         "builtAt":  "2025-02-03T22:01:08.0000000+03:00",
+                         "pdbAvailable":  false,
+                         "csFiles":  7
+                     },
+                     {
+                         "assembly":  "UpdateUploader.exe",
+                         "sha256":  "f52634e77fffd5f11283668eb1af838c181e3c50a7bd30395bb8671a5c636041",
+                         "sizeBytes":  194560,
+                         "builtAt":  "2026-04-15T18:08:06.0000000+03:00",
+                         "pdbAvailable":  true,
+                         "csFiles":  4
+                     }
+                 ]
+}

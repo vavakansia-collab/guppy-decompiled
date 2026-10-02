@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>AccountsManagerUpdater</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\am_logo3.png" />
+    <None Remove="resources\am_logo2.png" />
+    <None Remove="resources\am_logo4.ico" />
+    <None Remove="mainwindow.baml" />
+    <None Remove="resources\am_logo.ico" />
+    <None Remove="resources\am_logo.png" />
+    <None Remove="resources\btnclose.png" />
+    <EmbeddedResource Include="resources\am_logo3.png" LogicalName="resources/am_logo3.png" />
+    <EmbeddedResource Include="resources\am_logo2.png" LogicalName="resources/am_logo2.png" />
+    <EmbeddedResource Include="resources\am_logo4.ico" LogicalName="resources/am_logo4.ico" />
+    <EmbeddedResource Include="mainwindow.baml" LogicalName="mainwindow.baml" />
+    <EmbeddedResource Include="resources\am_logo.ico" LogicalName="resources/am_logo.ico" />
+    <EmbeddedResource Include="resources\am_logo.png" LogicalName="resources/am_logo.png" />
+    <EmbeddedResource Include="resources\btnclose.png" LogicalName="resources/btnclose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FluentFTP">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLibrary">
+      <HintPath>..\..\..\..\AppData\Roaming\guppy.bet\Accounts Manager\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+  </ItemGroup>
+</Project>
